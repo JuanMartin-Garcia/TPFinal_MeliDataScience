@@ -1,7 +1,0 @@
-curl -X POST -H 'accept: application/json' -H 'content-type: application/x-www-form-urlencoded' 'https://api.mercadolibre.com/oauth/token' -d 'grant_type=authorization_code' -d 'client_id=2476757368160136' -d 'client_secret=1PhHHlErkfFQgSAHiYbc3RsZarUGaWIs' -d 'code=TG-63f2965dcb8c9a00019f248a-50585801' -d 'redirect_uri=https://localhost:3000' 
-
-{"access_token":"APP_USR-2476757368160136-021917-8daa6c5e41c3197224eff3eaabff3fd0-50585801","token_type":"Bearer","expires_in":21600,"scope":"offline_access read","user_id":50585801,"refresh_token":"TG-63f296a7e8667200018c5312-50585801"}(base)
-
-PRUEBA
-
-curl -X GET -H 'Authorization: Bearer APP_USR-2476757368160136-021219-846c5c86174d0adf9d94ccc36cbce3df-50585801' https://api.mercadolibre.com/sites
