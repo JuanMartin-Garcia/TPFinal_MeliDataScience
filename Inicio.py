@@ -16,7 +16,7 @@ class CustomFeatureSelection(BaseEstimator, TransformerMixin):
         return X[self.selected_features]
     
 
-st.title(":blue[Presentación Trabajo Final: predicciones sobre publicaciones de Mercado Libre")
+st.title(":blue[Presentación Trabajo Final: predicciones sobre publicaciones de Mercado Libre]")
 st.write("Esta aplicación fue desarrollada en el marco del curso de Data Science de Digital House como trabajo final. Nuestro objetivo fue crear a partir de la API de Mercado Libre dos datasets diferentes, uno con informacion de publicaciones de productos de distintas categorías y otro con inmuebles publicados.")
 st.write("**Entrenamos tres modelos que predicen:**")
 
