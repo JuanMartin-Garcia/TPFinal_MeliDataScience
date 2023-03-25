@@ -121,4 +121,4 @@ def predict_with_data():
 
 
 if st.button(label="Predecir", on_click=predict_with_data):
-    st.write(f"La publicación es de la categoría: {st.session_state.result}")
+    st.markdown(f"La publicación es de la categoría: **:blue{st.session_state.result}**")
