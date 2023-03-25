@@ -21,7 +21,7 @@ st.write("Esta aplicación fue desarrollada en el marco del curso de Data Scienc
 st.write("**Entrenamos tres modelos que predicen:**")
 
 st.markdown('- Las categorías de los productos')
-st.markdown('- Las categorías de los productos')
+st.markdown('- Las subcategorías de los productos')
 st.markdown('- El precio de los inmuebles')
 
 st.subheader("Data categorías y subcategorías")
