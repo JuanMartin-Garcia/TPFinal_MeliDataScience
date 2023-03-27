@@ -3,6 +3,16 @@ import streamlit as st
 from sklearn.base import BaseEstimator, TransformerMixin
 import pickle
 
+class FeatureSelection(BaseEstimator, TransformerMixin):
+    
+    def __init__(self,selected_features):
+        self.selected_features=selected_features
+    
+    def fit(self,X,y=None):
+        return self
+    
+    def transform(self, X, y=None):
+        return X[self.selected_features]
 
 class CustomFeatureSelection(BaseEstimator, TransformerMixin):
     
@@ -34,5 +44,5 @@ st.write(df)
 
 st.subheader("Data inmuebles")
 
-with open('df_inmuebles.pkl', 'wb') as i_df:
+with open('df_inmuebles.pkl', 'rb') as i_df:
     df = pickle.load(i_df)
