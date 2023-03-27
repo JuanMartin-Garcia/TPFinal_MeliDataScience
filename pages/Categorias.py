@@ -86,8 +86,6 @@ days_remaining = custom_slider("Días restantes", df.days_remaining.min(), df.da
 # years_active
 years_active = custom_slider("Años activo", df.years_active.min(), df.years_active.max())
 
-# variation_filters TODO resolver esto?
-# variation_filters = custom_selectbox('Filtros de variación', df.variation_filters.unique().tolist())
 
 if 'result' not in st.session_state:
     st.session_state.result = None
