@@ -45,6 +45,6 @@ st.write(df)
 st.subheader("Data inmuebles")
 
 with open('df_inmuebles.pkl', 'rb') as i_df:
-    df2 = picke.load(i_df)
+    df2 = pickle.load(i_df)
     
 st.write(df2)
