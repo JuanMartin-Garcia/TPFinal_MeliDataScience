@@ -33,3 +33,6 @@ with open('df_categorias.pkl', 'rb') as f_df:
 st.write(df)
 
 st.subheader("Data inmuebles")
+
+with open('df_inmuebles.pkl', 'rb') as i_df:
+    df = pickle.load(i_df)
