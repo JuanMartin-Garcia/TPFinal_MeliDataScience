@@ -48,4 +48,4 @@ import pandas as pd
 with open('df_inmuebles.pkl', 'rb') as i_df:
     df2 = pd.read_pickle(i_df)
     
-st.writ(df2)
+st.write(df2)
