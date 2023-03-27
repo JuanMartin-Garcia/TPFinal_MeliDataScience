@@ -46,6 +46,6 @@ st.subheader("Data inmuebles")
 
 import pandas as pd 
 with open('df_inmuebles.pkl', 'rb') as i_df:
-    df2 = pd.read_pickle.load(i_df)
+    df2 = pd.read_pickle(i_df)
     
 st.writ(df2)
