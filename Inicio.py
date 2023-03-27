@@ -34,5 +34,5 @@ st.write(df)
 
 st.subheader("Data inmuebles")
 
-with open('df_inmuebles.pkl', 'rb') as i_df:
+with open('df_inmuebles.pkl', 'wb') as i_df:
     df = pickle.load(i_df)
